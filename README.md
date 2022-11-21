@@ -5,5 +5,4 @@
 
 
 ## Basic-Programs
-
-
+[Java Program to Read The Number From Standard Input](Basic%20Programs/src/HelloWorld.java)
