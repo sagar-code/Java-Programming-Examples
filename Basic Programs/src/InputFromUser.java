@@ -25,7 +25,6 @@ public class InputFromUser {
         System.out.println("Buffered Input Name: " + name);
 
 
-
 //        2. Scanner Class
         Scanner sc = new Scanner(System.in);
 
@@ -42,13 +41,12 @@ public class InputFromUser {
         System.out.println("Float Value: " + floatValue);
 
 
-
 //        3. Command Line Arguments
         if (args.length > 0) {
             System.out.println("The command line argument are: ");
 
 //            iterating the args and printing the command line arguments
-            for (String val: args) {
+            for (String val : args) {
                 System.out.println(val);
             }
         } else {
@@ -61,11 +59,6 @@ public class InputFromUser {
         System.out.print("Enter String from Console: ");
         String consoleInput = System.console().readLine();
         System.out.println("String from Console: " + consoleInput);
-
-
-
-
-
 
 
     }
